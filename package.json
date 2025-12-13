@@ -1,3 +1,9 @@
+"scripts": {
+  "start": "react-scripts start",
+  "build": "react-scripts build",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+}
 {
   "name": "food-restaurant-app",
   "version": "0.1.0",
